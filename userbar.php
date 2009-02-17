@@ -1,0 +1,1 @@
+<div align="right" class="userdata">Hola <?php echo $row_userid['username']; ?> / <a href="salida.php">Salida</a></div>

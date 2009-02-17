@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_temaid" value="name:id;datatype:int" />
+	<infoitem key="UD_pyreditar" value="name:id;datatype:int,name:tema;datatype:blob,name:pregunta;datatype:blob,name:respuesta;datatype:blob" />
+</info>

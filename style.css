@@ -1,0 +1,84 @@
+body {
+  font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+  font-size: 12px;
+  background-image:url(sin.png);
+  background-repeat:no-repeat;
+  background-position:left bottom;
+  background-attachment:fixed;
+}
+a {
+color:#000000;
+}
+.box {
+width: 600px;
+border:thin;
+border-color:#000000;
+border-style:solid;
+padding: 10px;
+height:auto;
+float:right;
+margin:10px;}
+hr {
+color:#000000;
+background-color:#000000;
+border-color:#000000;
+height:2px;}
+.datos {
+width:300px;
+height:auto;
+text-align: justify;
+float: right;
+position: relative;
+overflow:visible;}
+.contenido {
+width:600px;
+padding:3px;
+position:static;
+text-align:justify;
+font-style:italic;
+top:auto;}
+.tema{
+width:200px;
+text-align:left;
+float:left;
+position:relative;
+}
+i{
+text-decoration:underline;}
+.navi {
+float:left;
+text-align:left;
+width:300px;
+margin:10px;
+border:thin;
+border-color:#000000;
+border-style:solid;
+padding:5px;}
+.wrap{
+width:1000px;
+}
+.datosin {
+width:200px;
+height:auto;
+text-align: right;
+float: right;
+position: relative;}
+h1 {
+font-size:16px;
+font-weight:bold;
+}
+.logbox
+{ width:300px;
+border:thin;
+border-style:solid;
+border-color:#000000;
+padding:10px;}
+.userdata
+{
+background-image:url(mini.png);
+background-repeat:no-repeat;
+background-position:right;
+background-color:#FFFFFF;
+padding-right:50px;
+right:10px;
+position:fixed;}

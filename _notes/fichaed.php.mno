@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_selecter" value="name:id;datatype:int,name:tema;datatype:blob,name:autor;datatype:blob,name:titulo;datatype:blob,name:editor;datatype:blob,name:lugar;datatype:blob,name:fecha;datatype:blob,name:revista;datatype:blob,name:url;datatype:blob,name:tesis;datatype:blob,name:consulta;datatype:blob,name:tipo;datatype:blob,name:contenido;datatype:blob,name:comentario;datatype:blob,name:anotaciones;datatype:blob,name:extra1;datatype:blob,name:extra2;datatype:blob,name:stamp;datatype:timestamp,name:fuente;datatype:blob,name:pag;datatype:blob" />
+</info>

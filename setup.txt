@@ -1,0 +1,79 @@
+------------- PHP crear base ------------------
+$sql = 'CREATE TABLE `fichero` ('
+        . ' `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY, '
+        . ' `fecha` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP, '
+        . ' `autor1` TEXT NULL, '
+        . ' `autor2` TEXT NULL, '
+        . ' `autor3` TEXT NULL, '
+        . ' `autor4` TEXT NULL, '
+        . ' `autor5` TEXT NULL, '
+        . ' `autor6` TEXT NULL, '
+        . ' `orgautor` TEXT NULL, '
+        . ' `etal` TEXT NULL, '
+        . ' `editor1` TEXT NULL, '
+        . ' `editor2` TEXT NULL, '
+        . ' `yyyy` TEXT NULL, '
+        . ' `mm` TEXT NULL, '
+        . ' `dd` TEXT NULL, '
+        . ' `titulolibro` TEXT NULL, '
+        . ' `titulocapitulo` TEXT NULL, '
+        . ' `tituloarticulo` TEXT NULL, '
+        . ' `titulopublicacion` TEXT NULL, '
+        . ' `tituloperiodico` TEXT NULL, '
+        . ' `ciudad` TEXT NULL, '
+        . ' `url` TEXT NULL, '
+        . ' `basedatos` TEXT NULL, '
+        . ' `editorial` TEXT NULL, '
+        . ' `paginas` TEXT NULL, '
+        . ' `volumen` TEXT NULL, '
+        . ' `tomo` TEXT NULL, '
+        . ' `contenido` TEXT NULL, '
+        . ' `comentario` TEXT NULL, '
+        . ' `extra` TEXT NULL, '
+        . ' `anotaciones` TEXT NULL, '
+        . ' `archivo` TEXT NULL, '
+        . ' `tipofuente` TEXT NOT NULL, '
+        . ' `tipoficha` TEXT NOT NULL '
+        . ' )'
+        . ' ENGINE = myisam'
+        . ' COMMENT = \'Psyrax012 SINV\';';
+
+--------------SQL crear base------------------
+
+CREATE TABLE `fichero` (
+`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`fecha` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ,
+`autor1` TEXT NULL ,
+`autor2` TEXT NULL ,
+`autor3` TEXT NULL ,
+`autor4` TEXT NULL ,
+`autor5` TEXT NULL ,
+`autor6` TEXT NULL ,
+`orgautor` TEXT NULL ,
+`etal` TEXT NULL ,
+`editor1` TEXT NULL ,
+`editor2` TEXT NULL ,
+`yyyy` TEXT NULL ,
+`mm` TEXT NULL ,
+`dd` TEXT NULL ,
+`titulolibro` TEXT NULL ,
+`titulocapitulo` TEXT NULL ,
+`tituloarticulo` TEXT NULL ,
+`titulopublicacion` TEXT NULL ,
+`tituloperiodico` TEXT NULL ,
+`ciudad` TEXT NULL ,
+`url` TEXT NULL ,
+`basedatos` TEXT NULL ,
+`editorial` TEXT NULL ,
+`paginas` TEXT NULL ,
+`volumen` TEXT NULL ,
+`tema` TEXT NULL ,
+`tomo` TEXT NULL ,
+`contenido` TEXT NULL ,
+`comentario` TEXT NULL ,
+`extra` TEXT NULL ,
+`anotaciones` TEXT NULL ,
+`archivo` TEXT NULL,
+`tipofuente` TEXT NULL,
+`tipoficha` TEXT NULL
+) ENGINE = MYISAM COMMENT = 'Psyrax012 SINV';

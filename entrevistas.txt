@@ -1,0 +1,27 @@
+SQL query: CREATE TABLE `entrevistas` (
+`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`stamp` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ,
+`tema` TEXT NULL ,
+`entrevistado` TEXT NULL ,
+`archivo` TEXT NULL
+) ENGINE = MYISAM ;
+
+--------------------------------
+
+$sql = 'CREATE TABLE `entrevistas` ('
+        . ' `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY, '
+        . ' `stamp` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP, '
+        . ' `tema` TEXT NULL, '
+        . ' `entrevistado` TEXT NULL, '
+        . ' `archivo` TEXT NULL'
+        . ' )'
+        . ' ENGINE = myisam;';
+
+--------------------
+
+CREATE TABLE `pyr` (
+`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`tema` TEXT NOT NULL ,
+`pregunta` TEXT NULL ,
+`respuesta` TEXT NULL
+) ENGINE = MYISAM ;
